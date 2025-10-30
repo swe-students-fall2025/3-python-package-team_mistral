@@ -3,18 +3,17 @@
 import random
 
 def banter(name): 
-
     insults = [
-        f"{name}, you're so bright, you make the sun look like a nightlight!",
-        f"Nice try, {name}. I've seen better attempts from a broken calculator.",
-        f"{name}, you're proof that even participation trophies have standards.",
-        f"Hey {name}, I'd agree with you but then we'd both be wrong.",
-        f"{name}, you're like a software update—nobody asked for you, but here you are anyway.",
-        f"Wow {name}, that idea is almost as good as pineapple on pizza.",
-        f"{name}, you're the reason the gene pool needs a lifeguard.",
-        f"Keep talking, {name}. I always yawn when I'm interested.",
-        f"{name}; you just have bad luck thinking.",
-        f"I'd challenge you to a battle of wits, {name}, but I see you came unarmed."
+        f"{name}, you look like you're easy to draw",
+        f"{name}, the closest you'll come to a brainstorm is a light drizzle",
+        f"Hey {name}, you look like a 'before' picture.",
+        f"{name}, I envy everyone who hasn't met you",
+        f"Wow {name}, if ignorance is bliss, you must be ecstatic at all times.",
+        f"{name}, you'll go far someday. And I hope you stay there.", 
+        f"{name}, if I gave you a penny for your thoughts, I'd get change back",
+        f"{name}, you look like something I drew with my left hand."
+        f"{name}, you're secret is safe with me, because I wasn't listening.",
+        f"{name}, You bring joy to every room you exit.",
     ]
     
     return random.choice(insults)
