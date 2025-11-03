@@ -1,6 +1,6 @@
 # Unit tests for smallTalk function in Conversations module
 
-from src.conversations.smalltalk import smallTalk, questions, comments
+from conversations.smalltalk import smallTalk, questions, comments
 
 def test_smallTalk_returns_string():
     actualQuestion = smallTalk(True)
