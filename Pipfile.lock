@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "603a3aea6851c624c73daa98f7c39f1fded0d68ad8b41495b14170a10151cebe"
+            "sha256": "f574eba2055a008025b696e546aa6d77e2208e44b1619c59b17e8b7b794ec27b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -15,7 +15,13 @@
             }
         ]
     },
-    "default": {},
+    "default": {
+        "conversations": {
+            "editable": true,
+            "file": ".",
+            "markers": "python_version >= '3.11'"
+        }
+    },
     "develop": {
         "build": {
             "hashes": [
