@@ -9,6 +9,9 @@ def main() -> None:
 
     parser.add_argument("--question", action="store_true")
     parser.add_argument("--comment", action="store_true")
+    
+    parser.add_argument("--kind")
+    parser.add_argument("--name", default="")
 
     args = parser.parse_args()
 
