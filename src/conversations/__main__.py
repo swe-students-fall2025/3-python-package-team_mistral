@@ -11,7 +11,7 @@ def main() -> None:
     parser.add_argument("--comment", action="store_true")
     
     parser.add_argument("--kind")
-    parser.add_argument("--name", default="")
+    parser.add_argument("--name")
 
     args = parser.parse_args()
 
