@@ -1,7 +1,7 @@
 import random
 
 # separate banter into 3 categories, "mild", "medium," and "intense"
-banter = {
+insults = {
     "mild": [
         f"if I gave you a penny for your thoughts, I'd get change back.",
         f"the closest you'll come to a brainstorm is a light drizzle.",
@@ -16,7 +16,6 @@ banter = {
         f"if ignorance is bliss, you must be ecstatic at all times.",
         f"you're the human equivalent of a participation trophy.",
         f"you bring joy to every room you exit.",
-
 
 
     ],
@@ -35,8 +34,10 @@ def banter(intensity, name=""):
     Returns a playful insult.
     intensity is required (use mild, medium, or intense), name is optional.
     """
+    if intensity not in insults:
+        raise ValueError(f"Invalid intensity '{intensity}'. Choose 'mild', 'medium', or 'intense'.")
     
-    result = random.choice(banter[intensity])
+    result = random.choice(insults[intensity])
     
     if name:
         return f"{name}, {result}"
