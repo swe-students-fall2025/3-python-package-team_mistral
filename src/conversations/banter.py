@@ -34,7 +34,6 @@ def banter(intensity, name=""):
     Returns a playful insult.
     intensity is required (use mild, medium, or intense), name is optional.
     """
-    # Remove the if statement - let Python raise KeyError naturally
     result = random.choice(insults[intensity])
     
     if name:
