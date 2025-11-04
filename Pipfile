@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pytest = "*"
 conversations = {file = ".", editable = true}
 
 [dev-packages]
