@@ -1,5 +1,5 @@
 name: log github events
-on:
+on: 
   push:
     branches: [main, master, pipfile-experiment]
   pull_request:

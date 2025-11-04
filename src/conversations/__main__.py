@@ -9,6 +9,7 @@ def main() -> None:
     parser.add_argument("--category", default="general")
     parser.add_argument("--rarity", default="common")
 
+    parser.add_argument("--smalltalk", action="store_true")
     parser.add_argument("--question", action="store_true")
     parser.add_argument("--comment", action="store_true")
     
@@ -25,7 +26,7 @@ def main() -> None:
 
     print(fun_fact(category=args.category, rarity=args.rarity))
    
-    if args.question or args.comment: 
+    if args.smalltalk: 
         print(smallTalk(args.question))
 
     if args.banter:  
