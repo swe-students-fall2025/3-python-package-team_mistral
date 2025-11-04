@@ -6,8 +6,9 @@ import argparse
 
 def main() -> None:
     parser = argparse.ArgumentParser(prog="conversations")
-    parser.add_argument("--category", default="general")
-    parser.add_argument("--rarity", default="common")
+    parser.add_argument("--fact", action="store_true", help="print a fun fact")
+    parser.add_argument("--category", default="general", help="fun fact category (general, science, history, animals)")
+    parser.add_argument("--rarity", default="common", help="fun fact rarity (common, rare)")
 
     parser.add_argument("--smalltalk", action="store_true")
     parser.add_argument("--question", action="store_true")
@@ -24,7 +25,8 @@ def main() -> None:
 
     #add your function parsing strategy here for CLI
 
-    print(fun_fact(category=args.category, rarity=args.rarity))
+    if args.fact:
+        print(fun_fact(category=args.category, rarity=args.rarity))
    
     if args.smalltalk: 
         print(smallTalk(args.question))
