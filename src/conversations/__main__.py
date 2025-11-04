@@ -1,6 +1,7 @@
 from .funfacts import fun_fact
 from .smalltalk import smallTalk
 from .banter import banter  
+from .pickuplines import pickUpLine
 
 import argparse
 
@@ -33,6 +34,9 @@ def main() -> None:
         intensity = args.intensity if args.intensity else "medium"
         name = args.name if args.name else ""
         print(banter(intensity, name))
+        
+    if args.pickup and args.kind:
+        print(pickUpLine(args.kind, args.name))
 
 if __name__ == "__main__":
     main()
