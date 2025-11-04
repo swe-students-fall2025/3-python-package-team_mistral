@@ -1,7 +1,6 @@
 name: CI / CD
 on: 
   pull_request:
-  push:
     branches: pipfile-experiment
 jobs:
   build:

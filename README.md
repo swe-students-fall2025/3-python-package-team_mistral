@@ -1,5 +1,6 @@
-# Python Package Exercise
 ![CI / CD](https://github.com/swe-students-fall2025/3-python-package-team_mistral/actions/workflows/build.yaml/badge.svg)
+
+# Python Package Exercise
 
 [Mahabub Alif](https://github.com/Alif-4)
 
@@ -8,5 +9,7 @@
 [Susan Wang](https://github.com/sw5556)
 
 [Aden Juda](https://github.com/yungsemitone)
+
+[Serena Wang](https://github.com/serena0615)
 
 An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
