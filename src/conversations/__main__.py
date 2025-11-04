@@ -12,8 +12,8 @@ def main() -> None:
     parser.add_argument("--question", action="store_true")
     parser.add_argument("--comment", action="store_true")
     
-    parser.add_argument("--kind")
-    parser.add_argument("--name")
+    parser.add_argument("--kind", choices=["classic", "poetic", "funny", "nerdy"])
+    parser.add_argument("--name", default = "")
 
     # banter.py
     parser.add_argument("--intensity", choices=["mild", "medium", "intense"])  
