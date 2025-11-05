@@ -103,10 +103,11 @@ python src/example.py
 
 ### Using the CLI After Installation
 
-Once installed via pip, you can use ChatterPy from the command line:
+Once installed via pip, you can use ChatterPy from the command line, for example:
+
 ```bash
-# Small talk - comment
 chatterpy --smalltalk --comment
+```
 
 ## Example Output
 
