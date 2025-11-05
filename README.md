@@ -18,7 +18,7 @@ ChatterPy is a lighthearted Python package that helps spark **fun conversations*
 [Serena Wang](https://github.com/serena0615)
 
 ## PyPi
-![View our package's page here.](https://test.pypi.org/project/chatterpy-mistral/0.0.2/)
+[View our package's page here.](https://test.pypi.org/project/chatterpy-mistral/0.0.2/)
 
 ## Installation
 
