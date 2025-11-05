@@ -25,6 +25,7 @@ jobs:
           pipenv --venv
           pipenv run python -m pytest
   deliver:
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/pipfile-experiment' }}
     needs: [build]
     runs-on: ubuntu-latest
     timeout-minutes: 5
