@@ -1,7 +1,9 @@
 name: CI / CD
 on: 
   pull_request:
-    branches: pipfile-experiment
+    branches: [pipfile-experiment]
+  push:
+    branches: [pipfile-experiment]
 jobs:
   build:
     runs-on: ubuntu-latest
