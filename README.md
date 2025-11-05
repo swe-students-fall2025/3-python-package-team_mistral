@@ -1,5 +1,6 @@
-# Python Package Exercise
 ![CI / CD](https://github.com/swe-students-fall2025/3-python-package-team_mistral/actions/workflows/build.yaml/badge.svg)
+
+# Python Package Exercise
 
 [Mahabub Alif](https://github.com/Alif-4)
 
