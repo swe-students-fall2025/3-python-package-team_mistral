@@ -99,6 +99,15 @@ To run the example program:
 python src/example.py
 ```
 
+## Command-Line Interface
+
+### Using the CLI After Installation
+
+Once installed via pip, you can use ChatterPy from the command line:
+```bash
+# Small talk - comment
+chatterpy --smalltalk --comment
+
 ## Example Output
 
 When you run these commands, you'll get different outputs:
