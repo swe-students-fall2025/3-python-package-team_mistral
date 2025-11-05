@@ -7,7 +7,7 @@ from .compliments import compliment
 import argparse
 
 def main() -> None:
-    parser = argparse.ArgumentParser(prog="conversations")
+    parser = argparse.ArgumentParser(prog="chatterpy")
 
     # funfacts
     parser.add_argument("--fact", action="store_true", help="print a fun fact")

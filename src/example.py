@@ -1,10 +1,13 @@
-from conversations.funfacts import fun_fact
-from conversations.smalltalk import smallTalk
-from conversations.banter import banter  
-from conversations.pickuplines import pickUpLine
+from chatterpy.funfacts import fun_fact
+from chatterpy.smalltalk import smallTalk
+from chatterpy.banter import banter  
+from chatterpy.pickuplines import pickUpLine
+from chatterpy.compliments import compliment
 
-def demo_conversations():
+def demo_chatterpy():
     keep_going = True
+    _map = {"mild": 1, "medium": 2, "intense": 3}
+
     while(keep_going):
         choice = input("Enter a choice for your conversation:\n"
                        "\t1. Banter\n"
@@ -19,7 +22,10 @@ def demo_conversations():
             print(banter(intensity, name))
 
         elif choice == "2":
-            break
+            intense = input("Enter an intensity (mild, medium, intense): ").strip().lower()
+            intensityNum = _map.get(intense or "medium", 2)
+            name = input("Enter a name: ")
+            print(compliment(name, intensityNum))
 
         elif choice == "3":
             category = input("Enter a category (general, science, history, animals): ")
@@ -47,7 +53,7 @@ def demo_conversations():
             print("Goodbye!")
 
 def main():
-    demo_conversations()
+    demo_chatterpy()
 
 
 if __name__ == "__main__":

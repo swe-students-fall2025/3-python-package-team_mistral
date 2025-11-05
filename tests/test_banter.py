@@ -1,5 +1,5 @@
 import pytest
-from conversations.banter import banter
+from chatterpy.banter import banter
 
 
 class TestBanter:
