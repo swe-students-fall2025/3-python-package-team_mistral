@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 pytest = "*"
-chatterpy = {file = ".", editable = true}
+chatterpy_mistral = {file = ".", editable = true}
 
 [dev-packages]
 pytest = "*"

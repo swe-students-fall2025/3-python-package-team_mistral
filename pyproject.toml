@@ -3,8 +3,8 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "chatterpy"
-version = "0.0.1"
+name = "chatterpy_mistral"
+version = "0.0.3"
 description = "Lighthearted conversation helpers (fun facts, etc.)"
 requires-python = ">=3.9"
 readme = "README.md"
@@ -32,7 +32,7 @@ Homepage = "https://github.com/swe-students-fall2025/3-python-package-team_mistr
 Issues = "https://github.com/swe-students-fall2025/3-python-package-team_mistral.git"
 
 [project.scripts]
-chatterpy = "chatterpy.__main__:main" 
+chatterpy_mistral = "chatterpy_mistral.__main__:main" 
 
 [tool.setuptools.package-dir]
 "" = "src"

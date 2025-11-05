@@ -16,7 +16,7 @@
         ]
     },
     "default": {
-        "chatterpy": {
+        "chatterpy_mistral": {
             "editable": true,
             "file": ".",
             "markers": "python_version >= '3.11'"
