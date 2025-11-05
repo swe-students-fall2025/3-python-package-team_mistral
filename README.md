@@ -166,15 +166,17 @@ Aden, you're like a software update: nobody asked for you.
 
 ```
 3-python-package-team_mistral/
-├── chatterpy/
-│   ├── __init__.py
-│   ├── __main__.py
-│   ├── funfacts.py
-│   ├── smalltalk.py
-│   ├── pickuplines.py
-│   └── banter.py
-│   └── compliments.py
-├── tests/
+├──src/
+│   ├───chatterpy/
+│       ├── __init__.py
+│       ├── __main__.py
+│       ├── funfacts.py
+│       ├── smalltalk.py
+│       ├── pickuplines.py
+│       └── banter.py
+│       └── compliments.py
+│   ├─── example.py
+├──tests/
 │   ├── test_funfacts.py
 │   ├── test_smalltalk.py
 │   ├── test_pickuplines.py
@@ -185,4 +187,10 @@ Aden, you're like a software update: nobody asked for you.
 └── README.md
 ```
 
+## example.py
 
+[Link to example.py](src/example.py)
+
+example.py is a standalone Python script that demonstrates the functionality of the chatterpy package. It calls each of the package’s functions: fun facts, small talk, banter, pickup lines, and compliments.  
+
+This script is separate from the CLI interface in that it can be run directly with Python, and is intended for demonstration or testing purposes, rather than as a command-line tool for user input.
