@@ -1,10 +1,10 @@
-from chatterpy.funfacts import fun_fact
-from chatterpy.smalltalk import smallTalk
-from chatterpy.banter import banter  
-from chatterpy.pickuplines import pickUpLine
-from chatterpy.compliments import compliment
+from chatterpy_mistral.funfacts import fun_fact
+from chatterpy_mistral.smalltalk import smallTalk
+from chatterpy_mistral.banter import banter  
+from chatterpy_mistral.pickuplines import pickUpLine
+from chatterpy_mistral.compliments import compliment
 
-def demo_chatterpy():
+def demo_chatterpy_mistral():
     keep_going = True
     _map = {"mild": 1, "medium": 2, "intense": 3}
 
@@ -53,7 +53,7 @@ def demo_chatterpy():
             print("Goodbye!")
 
 def main():
-    demo_chatterpy()
+    demo_chatterpy_mistral()
 
 
 if __name__ == "__main__":

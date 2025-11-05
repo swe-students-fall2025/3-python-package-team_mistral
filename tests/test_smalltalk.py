@@ -1,6 +1,6 @@
 # Unit tests for smallTalk function in ChatterPy module
 
-from chatterpy.smalltalk import smallTalk, questions, comments
+from chatterpy_mistral.smalltalk import smallTalk, questions, comments
 
 # Correct return type test  
 def test_smallTalk_returns_string():

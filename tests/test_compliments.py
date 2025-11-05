@@ -1,6 +1,6 @@
 import random
 import pytest
-from chatterpy.compliments import compliment
+from chatterpy_mistral.compliments import compliment
 
 """
 Unit tests for compliment().

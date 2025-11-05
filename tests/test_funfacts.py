@@ -1,4 +1,4 @@
-from chatterpy.funfacts import fun_fact, FACTS
+from chatterpy_mistral.funfacts import fun_fact, FACTS
 
 def test_returns_string_nonempty():
     s = fun_fact()

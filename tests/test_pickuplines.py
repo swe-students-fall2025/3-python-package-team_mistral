@@ -1,4 +1,4 @@
-from chatterpy.pickuplines import pickUpLine, PICKUPLINES
+from chatterpy_mistral.pickuplines import pickUpLine, PICKUPLINES
 
 def test_pickUpLine_returns_string():
     actual_no_name = pickUpLine("classic")

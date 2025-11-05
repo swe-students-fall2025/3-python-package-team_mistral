@@ -17,12 +17,14 @@ ChatterPy is a lighthearted Python package that helps spark **fun conversations*
 
 [Serena Wang](https://github.com/serena0615)
 
+## PyPi
+![View our package's page here.](https://test.pypi.org/project/chatterpy-mistral/0.0.2/)
 
 ## Installation
 
 ### For Users: Install via pip
 ```bash
-pip install chatterpy
+pip install chatterpy_mistral
 ```
 
 ### For Contributors: Set Up Development Environment
@@ -69,9 +71,9 @@ Unit tests are included within the `tests` directory. Inorder to run these tests
 
 ### Importing ChatterPy in Your Code
 
-After installing with `pip install chatterpy`, you can import and use any function:
+After installing with `pip install chatterpy_mistral`, you can import and use any function:
 ```python
-from chatterpy import fun_fact, smallTalk, pickUpLine, compliment, banter
+from chatterpy_mistral import fun_fact, smallTalk, pickUpLine, compliment, banter
 
 # Get a random fun fact
 print(fun_fact())
@@ -109,7 +111,7 @@ python src/example.py
 Once installed via pip, you can use ChatterPy from the command line, for example:
 
 ```bash
-chatterpy --smalltalk --comment
+chatterpy_mistral --smalltalk --comment
 ```
 
 ## Example Output
@@ -119,7 +121,7 @@ When you run these commands, you'll get different outputs:
 ### Small Talk (Comment)
 
 ```bash
-python -m chatterpy --smalltalk --comment
+python -m chatterpy_mistral --smalltalk --comment
 ```
 
 You might see something like this:
@@ -133,7 +135,7 @@ Avocado toast is overrated, but I’d still eat it.
 ### Small Talk (Question)
 
 ```bash
-python -m chatterpy --smalltalk --question
+python -m chatterpy_mistral --smalltalk --question
 ```
 You might get:
 
@@ -146,7 +148,7 @@ I’ve been meaning to start reading/watching something new — any recommendati
 ### Pickup Line (No Name)
 
 ```bash
-python -m chatterpy --pickup --kind poetic
+python -m chatterpy_mistral --pickup --kind poetic
 ```
 
 You could see:
@@ -160,7 +162,7 @@ your presence feels like morning sunshine.
 ### Pickup Line (With Name)
 
 ```bash
-python -m chatterpy --pickup --kind nerdy --name Susan
+python -m chatterpy_mistral --pickup --kind nerdy --name Susan
 ```
 
 The output might be:
@@ -174,7 +176,7 @@ Susan, you’re a clean solution in a messy codebase.
 ### Compliment (With Name)
 
 ```bash
-python -m chatterpy --compliment --name Sydney --intensity medium
+python -m chatterpy_mistral --compliment --name Sydney --intensity medium
 ```
 This might return:
 
@@ -187,7 +189,7 @@ Sydney, You always add something unique to your look.
 ### Fun Facts (No parameters)
 
 ```bash
-python -m chatterpy --fact
+python -m chatterpy_mistral --fact
 ```
 
 Could get you:
@@ -201,7 +203,7 @@ Bananas are berries, but strawberries aren’t.
 ### Fun Facts (With parameters)
 
 ```bash
-python -m chatterpy --fact --category history --rarity rare
+python -m chatterpy_mistral --fact --category history --rarity rare
 ```
 
 Might spit out:
@@ -216,7 +218,7 @@ Ancient Roman concrete can 'self-heal'.
 ### Banter (No name)
 
 ```bash
-python -m chatterpy --banter --intensity medium
+python -m chatterpy_mistral --banter --intensity medium
 ```
 
 Will say:
@@ -230,7 +232,7 @@ you look like something I drew with my left hand.
 ### Banter (With name)
 
 ```bash
-python -m chatterpy --banter --intensity mild --name Aden
+python -m chatterpy_mistral --banter --intensity mild --name Aden
 ```
 
 Will return:
@@ -262,7 +264,7 @@ Aden, you're like a software update: nobody asked for you.
 ```
 3-python-package-team_mistral/
 ├──src/
-│   ├───chatterpy/
+│   ├───chatterpy_mistral/
 │       ├── __init__.py
 │       ├── __main__.py
 │       ├── funfacts.py
@@ -286,6 +288,6 @@ Aden, you're like a software update: nobody asked for you.
 
 [Link to example.py](src/example.py)
 
-example.py is a standalone Python script that demonstrates the functionality of the chatterpy package. It calls each of the package’s functions: fun facts, small talk, banter, pickup lines, and compliments.  
+example.py is a standalone Python script that demonstrates the functionality of the chatterpy_mistral package. It calls each of the package’s functions: fun facts, small talk, banter, pickup lines, and compliments.  
 
 This script is separate from the CLI interface in that it can be run directly with Python, and is intended for demonstration or testing purposes, rather than as a command-line tool for user input.
