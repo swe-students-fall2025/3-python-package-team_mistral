@@ -50,17 +50,20 @@ If you want to contribute to ChatterPy, follow these steps:
    pipenv shell
 ```
 
-5. **Run tests:**
-```bash
-   pipenv run pytest
-```
-
-6. **Build the package:**
+5. **Build the package:**
 ```bash
    pipenv run python -m build
 ```
 
 ---
+
+## How to run tests
+
+Unit tests are included within the `tests` directory. Inorder to run these tests:
+
+1. Install `pytest` into the virtual environment by running `pipenv install pytest`
+2. Run the tests from the main project directory: `pipenv run python -m pytest`. So it works on any shell or if you are already in `pipenv shell` you can run `pytest -q`
+3. If no changes were made and the system works as intended 34 tests should pass.
 
 ## Usage
 
