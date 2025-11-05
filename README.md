@@ -17,6 +17,88 @@ ChatterPy is a lighthearted Python package that helps spark **fun conversations*
 
 [Serena Wang](https://github.com/serena0615)
 
+
+## Installation
+
+### For Users: Install via pip
+```bash
+pip install chatterpy
+```
+
+### For Contributors: Set Up Development Environment
+
+If you want to contribute to ChatterPy, follow these steps:
+
+1. **Clone the repository:**
+```bash
+   git clone https://github.com/swe-students-fall2025/3-python-package-team_mistral.git
+   cd 3-python-package-team_mistral
+```
+
+2. **Install pipenv** (if you don't have it):
+```bash
+   pip install pipenv
+```
+
+3. **Install dependencies:**
+```bash
+   pipenv install --dev
+```
+
+4. **Activate the virtual environment:**
+```bash
+   pipenv shell
+```
+
+5. **Run tests:**
+```bash
+   pipenv run pytest
+```
+
+6. **Build the package:**
+```bash
+   pipenv run python -m build
+```
+
+---
+
+## Usage
+
+### Importing ChatterPy in Your Code
+
+After installing with `pip install chatterpy`, you can import and use any function:
+```python
+from chatterpy import fun_fact, smallTalk, pickUpLine, compliment, banter
+
+# Get a random fun fact
+print(fun_fact())
+
+# Get a fun fact from a specific category
+print(fun_fact(category="science", rarity="rare"))
+
+# Get small talk - question
+print(smallTalk(question=True))
+
+# Get small talk - comment
+print(smallTalk(question=False))
+
+# Get a pickup line
+print(pickUpLine(kind="poetic", name="Alex"))
+
+# Get a compliment
+print(compliment(name="Jordan", intensity=2, style="classic", category="personality"))
+
+# Get playful banter
+print(banter(intensity="mild", name="Sam"))
+```
+
+**See [example.py](src/example.py) for a complete interactive demonstration.**
+
+To run the example program:
+```bash
+python src/example.py
+```
+
 ## Example Output
 
 When you run these commands, you'll get different outputs:
