@@ -9,4 +9,6 @@
 
 [Aden Juda](https://github.com/yungsemitone)
 
+[Serena Wang](https://github.com/serena0615)
+
 An exercise to create a Python package, build it, test it, distribute it, and use it. See [instructions](./instructions.md) for details.
