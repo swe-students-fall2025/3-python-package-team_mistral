@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "chatterpy_mistral"
-version = "0.0.2"
+version = "0.0.3"
 description = "Lighthearted conversation helpers (fun facts, etc.)"
 requires-python = ">=3.9"
 readme = "README.md"
